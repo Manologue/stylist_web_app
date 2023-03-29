@@ -1,0 +1,21 @@
+#login-page {
+  background: var(--grey-200);
+  .login-section {
+    max-width: 500px;
+    margin: auto;
+  }
+  .form {
+    .register-links {
+      // background: red;
+      // display: flex !important;
+      // justify-content: space-between;
+      a {
+        text-decoration: underline;
+      }
+    }
+
+    .btn-block {
+      margin-bottom: 1rem;
+    }
+  }
+}

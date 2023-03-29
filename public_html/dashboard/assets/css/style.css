@@ -1,0 +1,113 @@
+/*global  */
+small,
+.text-small {
+  font-size: 0.7rem;
+}
+small {
+  color: red;
+}
+
+/*category page */
+
+.category-page .img-container-category {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  position: relative;
+  background-image: url('../../../uploads/blank.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.category-page .img-container-category img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.category-page .img-container-category i {
+  position: absolute;
+  right: 4%;
+  top: 2%;
+  font-size: 1.2rem;
+  color: red;
+  cursor: pointer;
+  display: none;
+}
+
+/* categories page */
+
+.delete-category-btn {
+  border: transparent;
+  background: none;
+  padding: 0;
+  margin: 0;
+  /* cursor: pointer; */
+  color: red;
+}
+
+.edit-category-btn {
+  border: transparent;
+  background: none;
+  padding: 0;
+  margin: 0;
+  color: green;
+}
+
+.edit-category-btn,
+.delete-category-btn {
+  font-size: 1.1rem;
+}
+
+.action-container {
+  display: flex;
+  gap: 1rem;
+}
+
+/*  account section */
+.account-services-page form button {
+  border: transparent;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*profile page */
+
+.profile-page .img-container-profile {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  position: relative;
+  background-image: url('../../../uploads/empty-profile.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.profile-page .img-container-profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile-page .img-container-profile i {
+  position: absolute;
+  right: 4%;
+  top: 2%;
+  font-size: 1.2rem;
+  color: red;
+  cursor: pointer;
+  display: none;
+}
+
+/* service-location page */
+
+.service-location-page .list-group li {
+  cursor: pointer;
+}
+
+.service-location-page .service-location-btn {
+  display: none;
+}
+
+.notif-alert {
+  display: none;
+}

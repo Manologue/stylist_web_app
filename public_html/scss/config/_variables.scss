@@ -1,0 +1,91 @@
+/*
+=============== 
+Fonts
+===============
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  /* primary colors */
+  /* 18 % shades */
+  --primary-50: #fad9e9;
+  --primary-100: #f6b4d4;
+  --primary-200: #f18ebe;
+  --primary-300: #ed69a9;
+  --primary-400: #ed69a9;
+  --primary-500: #e84393;
+  --primary-600: #ba3676;
+  --primary-700: #8b2858;
+  --primary-800: #5d1b3b;
+  --primary-900: #2e0d1d;
+  --primary-1000: #17070f;
+  /* end */
+
+  --secondaryColor: #bda5ad;
+  --tertiaryColor: #554148;
+
+  /* grey colors 1 */
+  --grey-50: #f8fafc;
+  --grey-100: #f1f5f9;
+  --grey-200: #e2e8f0;
+  --grey-300: #cbd5e1;
+  --grey-400: #94a3b8;
+  --grey-500: #64748b;
+  --grey-600: #475569;
+  --grey-700: #334155;
+  --grey-800: #1e293b;
+  --grey-900: #0f172a;
+
+  /* grey colors 2 */
+  --grey-950: #fefefe;
+  --grey-1000: #fbfcfc;
+  --grey-1200: #f9fafb;
+  --grey-1300: #f7f8f9;
+  --grey-1400: #f4f6f8;
+  --grey-1500: #f2f4f6;
+  --grey-1600: #c6c8ca;
+  --grey-1700: #9b9c9d;
+  --grey-1800: #6f7071;
+  --grey-1900: #444445;
+  --grey-2000: #181819;
+
+  /* rest of the colors */
+  --black: #222;
+  --white: #fffffe;
+  --red-light: #f8d7da;
+  --red-dark: #842029;
+  --green-light: #d1e7dd;
+  --green-dark: #0f5132;
+  --yellow-orange: #f9af00;
+
+  /* fonts  */
+  --headingFont: 'Poppins', sans-serif;
+  --bodyFont: 'Roboto', sans-serif;
+  --smallText: 0.7rem;
+
+  /* rest of the vars */
+  --backgroundColor: var(--white);
+  --secondaryBgColor: var(--primary-100);
+  --textColor: var(--grey-500);
+  --headingColor: var(--primary-800);
+  --linkColor: var(--primary-500);
+  --smallheadingColor: var(--primary-400);
+
+  --borderRadius: 0.25rem;
+  --letterSpacing: 1px;
+  --transition: 0.3s ease-in-out all;
+  --max-width: 1170px;
+  --fixed-width: 600px;
+
+  /* box shadow*/
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}

@@ -1,0 +1,80 @@
+.results {
+  background: var(--grey-100);
+  .results-center {
+    @media screen and (min-width: 765px) {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (min-width: 1200px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .article {
+      margin-bottom: 1rem;
+      box-shadow: var(--shadow-3);
+      padding: 0.65rem 1.2rem;
+      background: var(--white);
+      display: block;
+      width: 100%;
+
+      color: var(--text-color);
+    }
+    .article > div:nth-child(even) {
+      border-top: solid 2px var(--grey-100);
+    }
+    .article > div {
+      margin-bottom: 1rem;
+      padding-top: 0.4rem;
+    }
+    .desc {
+      // background: red;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    img {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+    }
+    @media screen and (min-width: 765px) {
+      .article {
+        margin-bottom: 0;
+
+        color: var(--text-color);
+      }
+      img {
+        height: 100px;
+        width: 100px;
+      }
+    }
+    p {
+      margin: 0;
+    }
+    .name {
+      font-weight: bold;
+    }
+    .experience {
+      margin-bottom: 0.5rem;
+    }
+    .experience > span {
+      background: var(--primary-600);
+      color: var(--white);
+      padding: 0.2rem;
+      border-radius: 0.2rem;
+      margin-right: 0.3rem;
+    }
+    .price {
+      font-weight: bold;
+    }
+
+    .services {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .services > i {
+      color: var(--primary-700);
+    }
+  }
+}

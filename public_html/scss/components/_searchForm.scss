@@ -1,0 +1,75 @@
+.home,
+#modal-location {
+  form.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+  }
+  form {
+    width: 100%;
+    max-width: 350px;
+  }
+  .field {
+    height: 50px;
+    position: relative;
+    margin: 1rem;
+  }
+  form i:nth-child(1) {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    color: var(--primary-200);
+    font-size: 17px;
+    pointer-events: none;
+    transform: translateY(-50%);
+  }
+  form i:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    color: var(--black);
+    font-size: 25px;
+    color: var(--primary-600);
+    // pointer-events: none;
+    transform: translateY(-50%);
+    display: none;
+    cursor: pointer;
+  }
+  .field-except i:nth-child(2) {
+    right: 18px;
+  }
+  .field-date i:nth-child(2) {
+    right: 40px !important;
+  }
+
+  form .field input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0 18px 0 48px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  form .field input:not([type='date']) {
+    cursor: pointer;
+  }
+  .field input::placeholder {
+    color: #ccc;
+  }
+
+  form .search button {
+    background: var(--primary-700);
+    box-shadow: none;
+    text-align: center;
+    font-size: 1.2rem !important;
+    padding: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    form .search button {
+      width: 150px !important;
+      padding: 0.5rem;
+    }
+  }
+}

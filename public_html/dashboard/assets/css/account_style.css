@@ -1,0 +1,51 @@
+.services-page .stylist .services .container {
+  border: solid 2px var(--grey-200);
+}
+.services-page .stylist .services article:first-child .service {
+  border-top: none;
+}
+.services-page .stylist .services article .service-div {
+  padding: 1rem 2rem;
+}
+.services-page .stylist .services article .service {
+  border-bottom: solid 2px var(--grey-200);
+  border-top: solid 2px var(--grey-200);
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+.services-page .stylist .services article .service span {
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.services-page .stylist .services article .products.show {
+  display: block;
+}
+.services-page .stylist .services article .products {
+  display: none;
+  background: var(--grey-1300);
+}
+.services-page .stylist .services article .products .single-product:not(:first-child) {
+  border-top: solid 1px var(--grey-200);
+  padding-top: 1rem;
+}
+.services-page .stylist .services article .products .single-product {
+  padding-bottom: 1rem;
+}
+.services-page .stylist .services article .products .single-product span {
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.services-page .stylist .services article .products .single-product div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-page .stylist .services article .products .single-product div span {
+  color: var(--primary-700);
+}
+.services-page .stylist .services article .products .single-product div .price {
+  border: solid 2px var(--primary-700);
+  padding: 0.15rem;
+}

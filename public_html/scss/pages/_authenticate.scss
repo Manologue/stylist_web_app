@@ -1,0 +1,30 @@
+#authenticate-page {
+  background: var(--grey-100);
+
+  padding: 3rem 0;
+
+  label {
+    font-size: 1rem;
+  }
+  // .form-row small {
+  //   color: red;
+  // }
+  .form h4 {
+    text-align: center;
+  }
+  .form h4 > span {
+    color: var(--primary-300);
+  }
+  .form button {
+    font-weight: bolder;
+    font-size: 1.2rem;
+  }
+
+  @media screen and (min-width: 764px) {
+    .container {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 2rem;
+    }
+  }
+}

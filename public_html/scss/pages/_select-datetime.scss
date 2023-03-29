@@ -1,0 +1,17 @@
+#datetime-page {
+  background: var(--grey-100);
+
+  .container {
+    @media screen and (min-width: 992px) {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 2rem;
+    }
+  }
+  .cart {
+    margin-top: 0;
+  }
+  #cart.section.cart {
+    padding-top: 65px;
+  }
+}

@@ -1,0 +1,13 @@
+#login-page {
+  background: var(--grey-200);
+}
+#login-page .login-section {
+  max-width: 500px;
+  margin: auto;
+}
+#login-page .form .register-links a {
+  text-decoration: underline;
+}
+#login-page .form .btn-block {
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=login.css.map */

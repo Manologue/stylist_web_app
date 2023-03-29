@@ -1,0 +1,50 @@
+#register-page {
+  .register-section {
+    background: var(--grey-100);
+  }
+
+  .section-center {
+    background: var(--white);
+    padding: 3rem;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--shadow-1);
+  }
+
+  @media screen and (min-width: 1170px) {
+    .register-center {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+      grid-template-areas: 'a b';
+    }
+
+    form label {
+      font-size: 0.85rem;
+    }
+  }
+
+  .short-description {
+    grid-area: b;
+  }
+  form {
+    .login {
+      margin-top: 2rem !important;
+      text-decoration: underline !important;
+      display: block;
+    }
+    grid-area: a;
+  }
+  .text-container {
+    div > p {
+      margin: 0;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+      list-style-type: disc;
+    }
+  }
+}

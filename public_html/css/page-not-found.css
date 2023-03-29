@@ -1,0 +1,15 @@
+#error-page .section-center {
+  display: flex;
+  justify-content: center;
+}
+#error-page .section-center h2 {
+  font-size: 8rem;
+}
+#error-page .section-center .btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#error-page .section-center p {
+  text-align: center;
+}/*# sourceMappingURL=page-not-found.css.map */
