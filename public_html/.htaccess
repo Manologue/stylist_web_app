@@ -13,4 +13,3 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule . index.php [L]
 
-# ErrorDocument 500 /phpbook/section_c/c17/public/error.php
